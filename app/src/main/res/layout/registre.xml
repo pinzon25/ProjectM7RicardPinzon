@@ -17,6 +17,8 @@
         android:textSize="36sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <TextView
@@ -29,6 +31,8 @@
         android:text="@string/nom"
         android:textSize="24sp"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <EditText
@@ -42,6 +46,8 @@
         android:labelFor="@id/txt_nom"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <TextView
@@ -54,6 +60,8 @@
         android:textSize="24sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <EditText
@@ -67,6 +75,8 @@
         android:importantForAutofill="no"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <TextView
@@ -79,6 +89,8 @@
         android:textSize="24sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <EditText
@@ -92,6 +104,8 @@
         android:importantForAutofill="no"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <TextView
@@ -104,6 +118,8 @@
         android:textSize="24sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <EditText
@@ -117,6 +133,8 @@
         android:importantForAutofill="no"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <TextView
@@ -128,6 +146,8 @@
         android:textSize="24sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <RadioButton
@@ -137,6 +157,8 @@
         android:layout_height="wrap_content"
         android:text="@string/home"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <RadioButton
@@ -147,6 +169,8 @@
         android:text="@string/dona"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <TextView
@@ -158,6 +182,8 @@
         android:textSize="24sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <Spinner
@@ -167,6 +193,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <TextView
@@ -178,6 +206,8 @@
         android:textSize="24sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <SeekBar
@@ -188,6 +218,8 @@
         android:indeterminate="false"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <Switch
@@ -195,10 +227,12 @@
         android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/et_consideres_divertit"
+        android:text="@string/et_consideres_montanyista"
         android:textSize="24sp"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <CheckBox
@@ -209,6 +243,8 @@
         android:text="@string/accepto_l_us_de_les_meves_dades"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
     <Button
@@ -220,6 +256,8 @@
         android:text="@string/registrar"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         />
 
 </LinearLayout>

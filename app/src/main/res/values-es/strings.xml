@@ -10,7 +10,7 @@
     <string name="crea_el_teu_usuari_aqu">Crea tu usuario aqui</string>
     <string name="crea_el_teu_usuari_aqui">Crea tu usuario aqui</string>
     <string name="dona">Mujer</string>
-    <string name="et_consideres_divertit">Te consideras divertido?</string>
+    <string name="et_consideres_montanyista">Te consideras montañista?</string>
     <string name="ets_introvertit">Eres introvertido?</string>
     <string name="formulari_de_registre">Formulario de registro</string>
     <string name="frase_que_mes_et_defineix">Frase que mas te define</string>
@@ -25,7 +25,7 @@
     <string name="password">Contraseña</string>
     <string name="registrar">Registrar</string>
     <string name="sexe">Sexo</string>
-    <string name="sign_up">Cerrar sesion</string>
+    <string name="sign_up">Registrate</string>
     <string name="title_activity_principal">Principal</string>
     <string name="title_placeholder">Deportes</string>
     <string name="user">Usuario</string>
