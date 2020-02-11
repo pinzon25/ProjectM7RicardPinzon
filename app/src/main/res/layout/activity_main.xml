@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Widget.Shrine.TextInputLayout"
+    android:focusable="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:accessibilityLiveRegion="polite"
+    >
 
     <ImageView
         android:id="@+id/imageView4"
+        android:focusable="true"
         android:layout_width="265dp"
         android:layout_height="173dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
@@ -16,11 +20,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.259"
-        app:srcCompat="@drawable/montanista2" />
+        app:srcCompat="@drawable/montanista2"
+        android:accessibilityLiveRegion="polite"
+        />
 
     <EditText
         android:id="@+id/txt_Password"
-
+        android:focusable="true"
         style="@style/Widget.Shrine.TextInputLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,10 +38,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_User"
-        android:fontFamily="sans-serif-smallcaps" tools:targetApi="o" />
+        android:fontFamily="sans-serif-smallcaps" tools:targetApi="o"
+        android:accessibilityLiveRegion="polite"
+        />
 
     <EditText
         android:id="@+id/txt_User"
+        android:focusable="true"
         style="@style/Widget.Shrine.TextInputLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,10 +56,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:fontFamily="sans-serif-smallcaps"/>
+        android:fontFamily="sans-serif-smallcaps"
+        android:accessibilityLiveRegion="polite"
+        />
 
     <TextView
         android:id="@+id/textView"
+        android:focusable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
@@ -60,10 +72,12 @@
         app:layout_constraintStart_toStartOf="parent"
         android:minHeight="48px"
         android:minWidth="48px"
+        android:accessibilityLiveRegion="polite"
         />
 
     <TextView
         android:id="@+id/textView2"
+        android:focusable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
@@ -74,10 +88,12 @@
         android:fontFamily="sans-serif-smallcaps"
         android:minHeight="48px"
         android:minWidth="48px"
+        android:accessibilityLiveRegion="polite"
         />
 
     <Button
         android:id="@+id/btn_signup"
+        android:focusable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="login"
@@ -88,11 +104,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_Password"
         app:layout_constraintVertical_bias="0.06"
-        android:fontFamily="sans-serif-smallcaps"/>
+        android:fontFamily="sans-serif-smallcaps"
+        android:accessibilityLiveRegion="polite"
+        />
 
     <Button
 
         android:id="@+id/btn_registre"
+        android:focusable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="formulariRegistre"
@@ -102,10 +121,13 @@
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_signup"
-        android:fontFamily="sans-serif-smallcaps"/>
+        android:fontFamily="sans-serif-smallcaps"
+        android:accessibilityLiveRegion="polite"
+        />
 
     <Button
         android:id="@+id/button_en"
+        android:focusable="true"
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_marginStart="30dp"
@@ -118,10 +140,12 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_signup"
         android:minHeight="48px"
         android:minWidth="48px"
+        android:accessibilityLiveRegion="polite"
         />
 
     <Button
         android:id="@+id/button_es"
+        android:focusable="true"
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_marginEnd="20dp"
@@ -133,10 +157,12 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_signup"
         android:minHeight="48px"
         android:minWidth="48px"
+        android:accessibilityLiveRegion="polite"
         />
 
     <Button
         android:id="@+id/button_cat"
+        android:focusable="true"
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:background="@drawable/bottom_cat"
@@ -147,6 +173,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_signup"
         android:minHeight="48px"
         android:minWidth="48px"
+        android:accessibilityLiveRegion="polite"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
