@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClimbIt</string>
+    <string name="accepto_l_us_de_les_meves_dades">" I accept the use of my data"</string>
+    <string name="action_settings">Settings</string>
+    <string name="benvingut">Welcome</string>
+    <string name="cognom">Surname</string>
+    <string name="contrasenya">Password</string>
+    <string name="crea_el_teu_usuari">Create your user</string>
+    <string name="crea_el_teu_usuari_aqu">Create your use here</string>
+    <string name="crea_el_teu_usuari_aqui">Create your user here</string>
+    <string name="dona">Woman</string>
+    <string name="et_consideres_divertit">" you consider yourself funny"</string>
+    <string name="ets_introvertit">" you are an introvert"</string>
+    <string name="formulari_de_registre">" registration form"</string>
+    <string name="frase_que_mes_et_defineix">"phrase that most defines you "</string>
+    <string name="home">Home</string>
+    <string name="menu_gallery">My events</string>
+    <string name="menu_home">Start</string>
+    <string name="menu_send">My profile</string>
+    <string name="menu_share">Sign up</string>
+    <string name="menu_slideshow">Create event</string>
+    <string name="news_placeholder">Route</string>
+    <string name="nom">Name</string>
+    <string name="password">Password</string>
+    <string name="registrar">Register</string>
+    <string name="sexe">Sex</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_placeholder">Sports</string>
+    <string name="user">User</string>
+    <string name="username">Username</string>
+</resources>
