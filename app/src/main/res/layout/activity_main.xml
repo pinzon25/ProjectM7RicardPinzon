@@ -126,6 +126,21 @@
         />
 
     <Button
+        android:id="@+id/button_cat"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:accessibilityLiveRegion="polite"
+        android:background="@drawable/bottom_cat"
+        android:focusable="true"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="cambiaCat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_es"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+
+    <Button
         android:id="@+id/button_en"
         android:layout_width="54dp"
         android:layout_height="54dp"
@@ -140,7 +155,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_es"
         app:layout_constraintStart_toEndOf="@+id/btn_registre"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
+        app:layout_constraintVertical_bias="0.497" />
 
     <Button
         android:id="@+id/button_es"
@@ -149,6 +165,7 @@
         android:layout_marginEnd="20dp"
         android:accessibilityLiveRegion="polite"
         android:background="@drawable/bottom_es"
+        android:enabled="false"
         android:focusable="true"
         android:minWidth="48dp"
         android:minHeight="48dp"
@@ -156,21 +173,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_cat"
         app:layout_constraintStart_toEndOf="@+id/button_en"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
-
-    <Button
-        android:id="@+id/button_cat"
-        android:layout_width="54dp"
-        android:layout_height="54dp"
-        android:accessibilityLiveRegion="polite"
-        android:background="@drawable/bottom_cat"
-        android:focusable="true"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
-        android:onClick="cambiaCat"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button_es"
         app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
