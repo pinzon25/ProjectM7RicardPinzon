@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(esp);
     }
     public void cambiaEn(View view) {
-        Locale ingles = new Locale("en", "ES");
+        Locale ingles = new Locale("en", "US");
         Locale.setDefault(ingles);
         Configuration config = new Configuration();
         config.locale = ingles;
