@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etpassword;
     Button login;
     Button registre;
+    private View view;
 
 
     @Override
@@ -77,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void cambiaCat(View view) {
+        this.view = view;
         Locale catalan = new Locale("ca", "CA");
         Locale.setDefault(catalan);
         Configuration config = new Configuration();
@@ -87,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(cat);
     }
     public void cambiaEsp(View view) {
+        this.view = view;
         Locale espanol = new Locale("es", "ES");
         Locale.setDefault(espanol);
         Configuration config = new Configuration();
@@ -97,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(esp);
     }
     public void cambiaEn(View view) {
+        this.view = view;
         Locale ingles = new Locale("en", "US");
         Locale.setDefault(ingles);
         Configuration config = new Configuration();
