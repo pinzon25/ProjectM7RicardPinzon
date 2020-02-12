@@ -46,8 +46,6 @@
         android:labelFor="@id/txt_nom"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
         />
 
     <TextView
@@ -75,8 +73,6 @@
         android:importantForAutofill="no"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
         />
 
     <TextView
@@ -104,8 +100,6 @@
         android:importantForAutofill="no"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
         />
 
     <TextView
@@ -133,8 +127,6 @@
         android:importantForAutofill="no"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
         />
 
     <TextView
@@ -193,8 +185,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
         android:accessibilityLiveRegion="polite"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
         />
 
     <TextView
