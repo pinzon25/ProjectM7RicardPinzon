@@ -21,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etpassword;
     Button login;
     Button registre;
-    private View view;
-
+     Locale locale = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,14 +36,15 @@ public class MainActivity extends AppCompatActivity {
         registre = findViewById(R.id.btn_registre);
 
     }
+
+
     public void formulariRegistre(View view) {
         Intent intent = new Intent(this, Registre.class);
 
         startActivity(intent);
 
-
-
     }
+
     public void login(View view) {
 
         final String username = etusername.getText().toString();
@@ -65,22 +65,19 @@ public class MainActivity extends AppCompatActivity {
             toast.setGravity(Gravity.CENTER|Gravity.LEFT,0,0);
             toast.show();
         }
-
-
-
     }
+
     private void saveLoginSharedPreferences(String username){
         SharedPreferences prefs = getPreferences(Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString("username", username);//guardar los datos
         editor.commit();
         editor.apply();
-
     }
-    public void cambiaCat(View view) {
-        this.view = view;
+
+    public void cambialCat(View view) {
         Locale catalan = new Locale("ca", "CA");
-        Locale.setDefault(catalan);
+        locale.setDefault(catalan);
         Configuration config = new Configuration();
         config.locale = catalan;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
@@ -88,10 +85,10 @@ public class MainActivity extends AppCompatActivity {
         cat.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(cat);
     }
-    public void cambiaEsp(View view) {
-        this.view = view;
+
+    public void cambialEsp(View view) {
         Locale espanol = new Locale("es", "ES");
-        Locale.setDefault(espanol);
+        locale.setDefault(espanol);
         Configuration config = new Configuration();
         config.locale = espanol;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
@@ -99,10 +96,10 @@ public class MainActivity extends AppCompatActivity {
         esp.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(esp);
     }
-    public void cambiaEn(View view) {
-        this.view = view;
+
+    public void cambialEn(View view) {
         Locale ingles = new Locale("en", "US");
-        Locale.setDefault(ingles);
+        locale.setDefault(ingles);
         Configuration config = new Configuration();
         config.locale = ingles;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
