@@ -26,6 +26,23 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        /*Crear boolean que serveixi per detectar quin idioma s'ha escollit,
+        i en funcio d'aquell numero determinat pel boolea, iniciar la activity aqui passantli aquell idioma.*/
+
+        /*
+        //CODIGO A EJECUTAR ANTES DE QUE SE MUESTRE LA VISTA DE LA ACTIVITY.
+        * Locale catalan = new Locale("ca", "CA");
+        locale.setDefault(catalan);
+        Configuration config = new Configuration();
+        config.locale = catalan;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        Intent cat = new Intent(getApplicationContext(), MainActivity.class);
+        cat.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(cat);
+        * */
+
+
         setContentView(R.layout.activity_main);
 
 
@@ -81,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         Configuration config = new Configuration();
         config.locale = catalan;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-        Intent cat = new Intent(getApplicationContext(), MainActivity.class);
+     Intent cat = new Intent(getApplicationContext(), MainActivity.class);
         cat.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(cat);
     }
@@ -92,9 +109,12 @@ public class MainActivity extends AppCompatActivity {
         Configuration config = new Configuration();
         config.locale = espanol;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-        Intent esp = new Intent(getApplicationContext(), MainActivity.class);
+
+
+
+        /*Intent esp = new Intent(getApplicationContext(), MainActivity.class);
         esp.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(esp);
+        startActivity(esp);*/
     }
 
     public void cambialEn(View view) {
@@ -103,9 +123,9 @@ public class MainActivity extends AppCompatActivity {
         Configuration config = new Configuration();
         config.locale = ingles;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-        Intent ing = new Intent(getApplicationContext(), MainActivity.class);
+        /*Intent ing = new Intent(getApplicationContext(), MainActivity.class);
         ing.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(ing);
+        startActivity(ing);*/
     }
 
 }

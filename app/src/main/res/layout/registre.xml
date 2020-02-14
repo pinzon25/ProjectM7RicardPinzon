@@ -34,17 +34,16 @@
         />
 
     <EditText
-        android:focusable="true"
         android:id="@+id/txt_nom"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
+        android:accessibilityLiveRegion="polite"
         android:ems="10"
+        android:focusable="true"
+        android:fontFamily="sans-serif-smallcaps"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:labelFor="@id/txt_nom"
-        android:fontFamily="sans-serif-smallcaps"
-        android:accessibilityLiveRegion="polite"
-        />
+        android:labelFor="@id/txt_nom" />
 
     <TextView
         android:focusable="true"
@@ -60,17 +59,16 @@
         />
 
     <EditText
-        android:focusable="true"
         android:id="@+id/txt_cognom"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/txt_cognom"
-        android:importantForAutofill="no"
-        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="35dp"
         android:accessibilityLiveRegion="polite"
-        />
+        android:ems="10"
+        android:focusable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txt_cognom" />
 
     <TextView
         android:focusable="true"
@@ -86,17 +84,16 @@
         />
 
     <EditText
-        android:focusable="true"
         android:id="@+id/txt_username"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/txt_username"
-        android:importantForAutofill="no"
-        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="35dp"
         android:accessibilityLiveRegion="polite"
-        />
+        android:ems="10"
+        android:focusable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txt_username" />
 
     <TextView
         android:focusable="true"
@@ -112,17 +109,17 @@
         />
 
     <EditText
-        android:focusable="true"
         android:id="@+id/txt_contrasenya"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:labelFor="@id/txt_contrasenya"
-        android:importantForAutofill="no"
-        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="35dp"
         android:accessibilityLiveRegion="polite"
-        />
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:labelFor="@id/txt_contrasenya" />
 
     <TextView
         android:focusable="true"
@@ -225,14 +222,14 @@
         />
 
     <Button
-        android:focusable="true"
         android:id="@+id/btn_registrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite"
+        android:focusable="true"
+        android:fontFamily="sans-serif-smallcaps"
         android:onClick="registrar"
         android:text="@string/registrar"
-        android:fontFamily="sans-serif-smallcaps"
-        android:accessibilityLiveRegion="polite"
 
         />
 
